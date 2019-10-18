@@ -25,6 +25,8 @@ Files:
 * Fill mysql connection parameters within env.
 * `php artisan migrate`
 * `php artisan serve`
+* Don't forget to run a worker to execute the jobs:
+    * `php artisan queue:work`
 
 ## DB Schema Simple Table To hold file's data
 * online_id (string to holde unique files id) to search for before storing to avoid duplicate entries.
